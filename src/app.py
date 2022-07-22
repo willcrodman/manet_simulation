@@ -124,7 +124,7 @@ else:
             x0, x1, y0, y1 = xs[v0], xs[v1], ys[v0], ys[v1]
             plt.plot([x0, x1], [y0, y1], color='royalblue', linewidth=3)
 
-        imscatter(xs, ys, 'laptop.png', zoom=0.25, ax=ax)
+        imscatter(xs, ys, '../images/laptop.png', zoom=0.25, ax=ax)
 
         ax.set_xlim([network.x_min, network.x_max])
         ax.set_ylim([network.y_min, network.y_max])

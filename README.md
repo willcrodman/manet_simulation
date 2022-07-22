@@ -60,15 +60,13 @@ simulation; takes arguments of type **float**.
 Command to start simulation with text output.  
 ```
 python3 src/app.py --seed
-
 ```
 
-![text_output_gif](text_output.gif)
+![text_output_gif](https://github.com/willcrodman/manet_simulation/blob/main/images/text_output.gif)
 
 
 Command to start simulation with MatPlotLib visual output.  
 ```
 python3 src/app.py --seed --map
-
 ```
-![visual_output_gif](visual_output.gif)
+![visual_output_gif](https://github.com/willcrodman/manet_simulation/blob/main/images/visual_output.gif)
